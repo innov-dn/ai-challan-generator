@@ -17,7 +17,7 @@ public class AppConfig {
         return GoogleAiGeminiChatModel.builder()
                 .apiKey(geminiApiKey)
                 // ✅ Latest free-tier model
-                .modelName("gemini-3.1-flash-lite-preview")
+                .modelName("gemini-3.1-flash-lite")
                 // Low temp = precise legal output
                 .temperature(0.1) // Should use 1.0 as mentioned in website
                 // Enough for full JSON + reasoning
