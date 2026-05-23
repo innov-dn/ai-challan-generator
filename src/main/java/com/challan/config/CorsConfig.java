@@ -14,10 +14,8 @@ public class CorsConfig implements WebMvcConfigurer {
         registry.addMapping("/api/**")
                 .allowedOrigins(
                         "http://localhost:5173",
-                        "https://challan-frontend.vercel.app",
-                        "https://challan-frontend-innov-dn.vercel.app",
-                        "https://challan-frontend-three.vercel.app/"
-                        // paste your exact Vercel URL here
+                        "https://challan-frontend-three.vercel.app",
+                        "http://ai-challan-generator-env.eba-jsps6urs.eu-north-1.elasticbeanstalk.com"
                 )
                 .allowedMethods(
                         "GET", "POST", "PUT",
