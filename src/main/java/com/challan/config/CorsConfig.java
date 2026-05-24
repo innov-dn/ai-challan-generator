@@ -15,7 +15,7 @@ public class CorsConfig implements WebMvcConfigurer {
                 .allowedOrigins(
                         "http://localhost:5173",
                         "https://challan-frontend-three.vercel.app",
-                        "http://ai-challan-generator-env.eba-jsps6urs.eu-north-1.elasticbeanstalk.com"
+                        "https://ai-challan-generator.onrender.com"
                 )
                 .allowedMethods(
                         "GET", "POST", "PUT",
